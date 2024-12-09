@@ -13,6 +13,51 @@
 - Tailwind CSS
 - shadcn/ui برای کامپوننت‌های UI
 
+## ساختار پروژه:
+```bash
+zaviye-website/
+├── app/
+│   ├── admin/
+│   │   └── page.tsx
+│   ├── biography/
+│   │   └── page.tsx
+│   ├── colleagues/
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── cooperate/
+│   │   └── page.tsx
+│   ├── faq/
+│   │   └── page.tsx
+│   ├── news/
+│   │   └── page.tsx
+│   ├── works/
+│   │   ├── [id]/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── input.tsx
+│   │   ├── navigation-menu.tsx
+│   │   ├── textarea.tsx
+│   │   └── use-toast.ts
+│   ├── footer.tsx
+│   ├── header.tsx
+│   ├── theme-provider.tsx
+│   └── wave-separator.tsx
+├── lib/
+│   └── utils.ts
+├── public/
+│   └── گروه زاویه.PNG
+├── package.json
+└── tailwind.config.js
+```
+
 ## صفحات اصلی
 1. صفحه اصلی (Home)
 2. آثار (Works)
