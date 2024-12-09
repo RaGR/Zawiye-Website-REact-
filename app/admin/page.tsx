@@ -15,7 +15,7 @@ export default function AdminPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    if (username === 'admin' && password === 'admin1') {
+    if (username === '' && password === '') {
       setIsLoggedIn(true)
       toast({
         title: "ورود موفق",
